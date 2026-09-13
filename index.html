@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人名片 | 薛明波</title>
+
+  <!-- 结构与样式分离：外链独立 CSS 文件 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 名片主体：居中卡片 -->
+  <main class="card">
+
+    <!-- 圆形头像区域（将 src 换成你自己的照片地址即可） -->
+    <div class="avatar-wrap">
+      <img
+        class="avatar"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%236366f1'/%3E%3Ccircle cx='50' cy='38' r='17' fill='%23ffffff' opacity='0.92'/%3E%3Cpath d='M16 94c0-19 15-31 34-31s34 12 34 31z' fill='%23ffffff' opacity='0.92'/%3E%3C/svg%3E"
+        alt="薛明波的头像">
+    </div>
+
+    <!-- 姓名 -->
+    <h1 class="name">薛明波</h1>
+
+    <!-- 职位 -->
+    <p class="job">前端开发工程师</p>
+
+    <!-- 联系方式列表 -->
+    <ul class="contact">
+      <li>
+        <span class="icon" aria-hidden="true">✉</span>
+        <a href="mailto:xueminbo@example.com">1531327385@qq.com</a>
+      </li>
+      <li>
+        <span class="icon" aria-hidden="true">☎</span>
+        <a href="tel:+8613800000000">+86 138-0000-0000</a>
+      </li>
+      <li>
+        <span class="icon" aria-hidden="true">⌂</span>
+        <span>中国 · 上海</span>
+      </li>
+    </ul>
+
+  </main>
+
+</body>
+</html>
