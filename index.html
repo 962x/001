@@ -1,49 +1,83 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>个人名片 | 薛明波</title>
-
-  <!-- 结构与样式分离：外链独立 CSS 文件 -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成都旅游攻略｜成都文理学子带你逛成都</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #c8161d;
+            color: white;
+            text-align: center;
+            padding:20px;
+        }
+        .container{
+            width:90%;
+            margin:20px auto;
+            background:white;
+            padding:20px;
+        }
+        h2{
+            color:#c8161d;
+            margin:15px 0;
+        }
+        p{
+            line-height:1.8;
+            margin:10px 0;
+        }
+        .spot{
+            border:1px solid #ddd;
+            padding:15px;
+            margin:10px 0;
+        }
+        footer{
+            text-align:center;
+            background:#333;
+            color:white;
+            padding:15px;
+            margin-top:20px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>成都旅游攻略</h1>
+        <p>来自成都文理学院学子的游玩推荐</p>
+    </header>
+    <div class="container">
+        <h2>🎓 关于我——成都文理学院</h2>
+        <p>我是成都文理学院的一名在校学生，读书在金堂，课余时间常常约上同学去往成都主城区游玩。接下来由我给大家推荐成都好玩的景点与美食！</p>
 
-  <!-- 名片主体：居中卡片 -->
-  <main class="card">
+        <h2>🌆 成都热门景点</h2>
+        <div class="spot">
+            <h3>宽窄巷子</h3>
+            <p>古色古香的老成都街巷，可以看川剧变脸，品尝各类成都小吃。从学校放假坐地铁就可以过来打卡。</p>
+        </div>
+        <div class="spot">
+            <h3>锦里古街</h3>
+            <p>夜晚最美！挂满红灯笼，充满巴蜀古风，适合和文理同学结伴拍照散步。</p>
+        </div>
+        <div class="spot">
+            <h3>大熊猫繁育研究基地</h3>
+            <p>来成都必看国宝大熊猫！很多文理新生入学之后，班级团建都会选择这里。</p>
+        </div>
 
-    <!-- 圆形头像区域（将 src 换成你自己的照片地址即可） -->
-    <div class="avatar-wrap">
-      <img
-        class="avatar"
-        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%236366f1'/%3E%3Ccircle cx='50' cy='38' r='17' fill='%23ffffff' opacity='0.92'/%3E%3Cpath d='M16 94c0-19 15-31 34-31s34 12 34 31z' fill='%23ffffff' opacity='0.92'/%3E%3C/svg%3E"
-        alt="薛明波的头像">
+        <h2>🍲 成都特色美食</h2>
+        <p>火锅、串串香、担担面、钟水饺。周末文理的同学们经常相约进城大吃一顿！</p>
+
+        <h2>🚗 从成都文理学院出发小提示</h2>
+        <p>成都文理学院位于金堂，进城游玩建议提前规划出行时间，可以和室友组队一起出发，性价比更高。</p>
     </div>
-
-    <!-- 姓名 -->
-    <h1 class="name">薛明波</h1>
-
-    <!-- 职位 -->
-    <p class="job">前端开发工程师</p>
-
-    <!-- 联系方式列表 -->
-    <ul class="contact">
-      <li>
-        <span class="icon" aria-hidden="true">✉</span>
-        <a href="mailto:xueminbo@example.com">1531327385@qq.com</a>
-      </li>
-      <li>
-        <span class="icon" aria-hidden="true">☎</span>
-        <a href="tel:+8613800000000">+86 138-0000-0000</a>
-      </li>
-      <li>
-        <span class="icon" aria-hidden="true">⌂</span>
-        <span>中国 · 上海</span>
-      </li>
-    </ul>
-
-  </main>
-
+    <footer>
+        <p>网页制作者：成都文理学院学生 | 初学者前端练习页面</p>
+    </footer>
 </body>
 </html>
